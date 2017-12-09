@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    tools:context="com.example.hp1.catchcat.CatchActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageViewCatThumbnail"
+        android:layout_width="@dimen/NewCatCameraIconDimens"
+        android:layout_height="@dimen/NewCatCameraIconDimens"
+        android:layout_gravity="center_vertical|center_horizontal|center"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <TextView
+        android:id="@+id/lbl_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_description"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <EditText
+        android:id="@+id/tf_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:maxLength="@integer/max_description" />
+
+    <Button
+        android:id="@+id/bt_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/NewCatTitleMargin"
+        android:background="@color/colorPrimary"
+        android:elevation="0dp"
+        android:text="@string/bt_call"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="@dimen/button_menu" />
+</LinearLayout>

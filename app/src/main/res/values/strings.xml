@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Catch Cat</string>
+    <string name="bt_myprofile">My profile</string>
+    <string name="bt_adopt">I want to catch a cat</string>
+    <string name="bt_foundcat">I thought I saw a pussy cat</string>
+    <string name="txtNewCatTitle">Take pictures of the cat</string>
+    <string name="txtNewCatDescription">Describe how does the cat looks like here</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="bt_catch">Catch a cat!</string>
+    <string name="gps_request_explain">In order to the application to work we need the localization</string>
+    <string name="lbl_description">Description</string>
+    <string name="bt_edit">Edit</string>
+    <string name="bt_save">Save</string>
+    <string name="bt_call">Call Owner</string>
+    <string name="map_not_ready">Map is not ready yet</string>
+    <string name="no_signal">Problem with GPS signal</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_password">Password</string>
+    <string name="bt_login">Login</string>
+    <string name="bt_signin">Sign In</string>
+    <string name="bt_register">Register</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_phone">Phone Number</string>
+    <string name="namevalidation">Please, insert your NAME</string>
+    <string name="emailvalidation">Please, insert your EMAIL</string>
+    <string name="passwordvalidation">Please, insert your PASSWORD</string>
+    <string name="phonevalidation">Please, insert your PHONE NUMBER</string>
+    <string name="emailloginvalidation">You must write in the EMAIL field</string>
+    <string name="passwordloginvalidation">You must write in the PASSWORD field</string>
+    <string name="pg_registering">Registering, please wait...</string>
+    <string name="pg_loggingin">Logging in, please wait...</string>
+    <string name="signinerror">Error, could not register.</string>
+    <string name="bt_logout">Log Out</string>
+    <string name="descriptionvalidation">Please insert a cat description in 140 characters.</string>
+    <string name="pg_savecat">Saving cat, please wait...</string>
+    <string name="needcamera">The app needs camera permission.</string>
+
+</resources>

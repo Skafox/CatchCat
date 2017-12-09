@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_menu">20sp</dimen>
+    <dimen name="NewCatTitleDimens">30sp</dimen>
+    <dimen name="NewCatTitlePadding">10sp</dimen>
+    <dimen name="NewCatTitleMargin">7sp</dimen>
+    <dimen name="NewCatCameraIconDimens">150sp</dimen>
+    <dimen name="layout_catch">400sp</dimen>
+    <dimen name="bt_logoutdimens">130sp</dimen>
+</resources>

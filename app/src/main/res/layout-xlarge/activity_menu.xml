@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_row="2"
+    tools:context="com.example.hp1.catchcat.MenuActivity"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bt_adopt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal|center"
+        android:text="@string/bt_adopt"
+        android:textSize="@dimen/button_menu" />
+
+    <Button
+        android:id="@+id/bt_myprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal|center"
+        android:layout_weight="0.00"
+        android:text="@string/bt_myprofile"
+        android:textSize="@dimen/button_menu" />
+
+    <Button
+        android:id="@+id/bt_foundcat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal|center"
+        android:text="@string/bt_foundcat"
+        android:textSize="@dimen/button_menu" />
+
+</LinearLayout>
